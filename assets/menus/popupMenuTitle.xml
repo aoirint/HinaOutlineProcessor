@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<menuDoc>
+    <menuItem command="text.cut" />
+    <menuItem command="text.copy" />
+    <menuItem command="text.paste" />
+</menuDoc>

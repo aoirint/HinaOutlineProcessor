@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<langDoc lang="en-US" name="English (US)" flag="us.png">
+    <localize id="application.title">Hina Hop</localize>
+
+    <localize id="file">File(%1)</localize>
+    <localize id="file.createNew">Create new file</localize>
+    <localize id="file.open">Open</localize>
+    <localize id="file.reopen">Reopen</localize>
+    <localize id="file.save">Save</localize>
+    <localize id="file.saveAs">Save As...</localize>
+    <localize id="file.close">Close</localize>
+    <localize id="file.recentFiles">Recent Files</localize>
+
+    <localize id="file.import">Import</localize>
+    <localize id="file.import.opml">From OPML</localize>
+    <localize id="file.import.wzmemo">From Hierarchical Text(WzMemo)</localize>
+    <localize id="file.export">Export</localize>
+    <localize id="file.export.opml">As OPML</localize>
+    <localize id="file.export.wzmemo">As Hierarchical Text(WzMemo)</localize>
+
+    <localize id="file.settings">Settings</localize>
+    <localize id="file.theme.settings">Theme Settings</localize>
+    <localize id="file.exit">Exit</localize>
+
+    <localize id="document">Document(%1)</localize>
+    <localize id="document.unsaved">Unsaved</localize>
+    <localize id="document.settings">Document Settings</localize>
+    <localize id="document.settings.dialog.title">Document Settings</localize>
+    <localize id="document.owner.settings">Owner settings</localize>
+    <localize id="document.owner.unset">Unset</localize>
+    <localize id="document.mode.view">View Mode</localize>
+    <localize id="document.mode.edit">Edit Mode</localize>
+    <localize id="document.mode.view.short">View</localize>
+    <localize id="document.mode.edit.short">Edit</localize>
+    <localize id="document.dateFormatType">Output Date Time Format</localize>
+
+    <localize id="edit">Edit(%1)</localize>
+    <localize id="edit.undo">Undo</localize>
+    <localize id="edit.redo">Redo</localize>
+    <localize id="edit.focus.tree">Transfer Focus to Tree</localize>
+    <localize id="edit.focus.title">Transfer Focus to Title</localize>
+    <localize id="edit.focus.body">Transfer Focus to Body</localize>
+
+    <localize id="tree">Tree(%1)</localize>
+    <localize id="tree.moveUpward">Move Upward</localize>
+    <localize id="tree.moveDownward">Move Downward</localize>
+
+    <localize id="tree.appendChildNode">Append Child Node</localize>
+    <localize id="tree.appendSiblingNode">Append Sibling Node</localize>
+    <localize id="tree.removeNode">Remove Node</localize>
+    <localize id="tree.cloneNode">Clone Node</localize>
+
+    <!-- Node Marker Shape -->
+    <localize id="tree.node.marker.changeShape">Change Marker Shape</localize>
+    <localize id="tree.node.marker.shape.diamond">Diamond</localize>
+    <localize id="tree.node.marker.shape.square">Square</localize>
+    <localize id="tree.node.marker.shape.disc">Disc</localize>
+    <localize id="tree.node.marker.shape.rightArrow">Right arrow</localize>
+
+    <!-- Node Marker Color -->
+    <localize id="tree.node.marker.changeColor">Change Marker Color</localize>
+    <localize id="tree.node.marker.color.red">Red</localize>
+    <localize id="tree.node.marker.color.yellow">Yellow</localize>
+    <localize id="tree.node.marker.color.green">Green</localize>
+    <localize id="tree.node.marker.color.blue">Blue</localize>
+    <localize id="tree.node.marker.color.purple">Purple</localize>
+    <localize id="tree.node.marker.color.any">Any</localize>
+
+    <localize id="tree.node.noTitle">No Title</localize>
+
+
+    <localize id="text">Text(%1)</localize>
+    <localize id="text.cut">Cut</localize>
+    <localize id="text.copy">Copy</localize>
+    <localize id="text.paste">Paste</localize>
+    <localize id="text.search.find">Find</localize>
+    <localize id="text.search.replace">Replace</localize>
+    <localize id="text.search.dialog.title">Search</localize>
+    <localize id="text.search.tab.find">Find</localize>
+    <localize id="text.search.tab.replace">Replace</localize>
+    <localize id="text.search.findNext">Find Next</localize>
+    <localize id="text.search.findWhat">Find what:</localize>
+    <localize id="text.search.replace">Replace</localize>
+    <localize id="text.search.replaceWith">Replace with:</localize>
+    <localize id="text.search.count">Count</localize>
+    <localize id="text.search.inSelection">In Selection</localize>
+    <localize id="text.search.mode">Search Mode</localize>
+    <localize id="text.search.mode.normal">Normal</localize>
+    <localize id="text.search.mode.regex">Regex</localize>
+    <localize id="text.search.direction">Direction</localize>
+    <localize id="text.search.direction.up">Up</localize>
+    <localize id="text.search.direction.down">Down</localize>
+    <localize id="text.search.direction.wrapAround">Wrap around</localize>
+    <localize id="text.search.rule">Rules</localize>
+    <localize id="text.search.rule.regex.dotAll">Regex Dot All</localize>
+    <localize id="text.search.rule.matchCase">Match Case</localize>
+
+
+    <localize id="analyze">Analyze(%1)</localize>
+    <localize id="analyze.characterCount">Character count</localize>
+    <localize id="analyze.characterCount.all">All</localize>
+    <localize id="analyze.characterCount.underSelected">Under the Selected Node</localize>
+
+    <localize id="analyze.short.characterCount">%1 Chars</localize>
+    <localize id="analyze.short.lineCount">%1 Lines</localize>
+    <localize id="analyze.short.caretRow">Row %1</localize>
+    <localize id="analyze.short.caretColumn">Col %1</localize>
+
+    <localize id="help">Help</localize>
+    <localize id="help.about">About Hina</localize>
+    <localize id="help.about.dialog.title">Application Info</localize>
+
+
+    <localize id="settings.dialog.title">Settings Dialog</localize>
+    <localize id="settings.general">General</localize>
+    <localize id="settings.language">Language</localize>
+    <localize id="settings.owner">Owner</localize>
+    <localize id="settings.owner.defaultOwner">Default owner</localize>
+    <localize id="settings.owner.askAutoInject">Ask before auto-injecting default owner data</localize>
+    <localize id="settings.fileHistory">History</localize>
+    <localize id="settings.fileHistory.fileHistorySize">Recent Files Limit</localize>
+    <localize id="settings.fileHistory.restorePreviousOnStartup">Restore previous session on startup</localize>
+    <localize id="settings.edit.emphasizeFocusedPane">Emphasize focused pane</localize>
+
+    <localize id="owner.dialog.title">Owner Settings Dialog</localize>
+    <localize id="owner.name">Name</localize>
+    <localize id="owner.mail">Mail</localize>
+    <localize id="owner.phone">Phone</localize>
+    <localize id="owner.website">Website</localize>
+
+    <localize id="theme.dialog.title">Theme Settings Dialog</localize>
+    <localize id="theme.themeList">Theme</localize>
+    <localize id="theme.name">Name</localize>
+    <localize id="theme.create">Create</localize>
+    <localize id="theme.copy">Copy</localize>
+    <localize id="theme.remove">Remove</localize>
+    <localize id="theme.use">Use This Theme</localize>
+
+    <localize id="theme.color">Color Settings</localize>
+    <localize id="theme.color.title">Title</localize>
+    <localize id="theme.color.body">Body</localize>
+    <localize id="theme.color.tree">Tree</localize>
+    <localize id="theme.color.others">Others</localize>
+    <localize id="theme.color.foreground">Foreground</localize>
+    <localize id="theme.color.background">Background</localize>
+    <localize id="theme.color.selectionForeground">Selection Foreground</localize>
+    <localize id="theme.color.selectionBackground">Selection Background</localize>
+    <localize id="theme.color.caret">Caret</localize>
+    <localize id="theme.color.emphasisBorder">Emphasis Border</localize>
+
+
+    <localize id="button.ok">OK</localize>
+    <localize id="button.clear">Clear</localize>
+    <localize id="button.apply">Apply Changes</localize>
+
+
+    <localize id="message.unsaved.title">Unsaved Changes</localize>
+    <localize id="message.unsaved">Some changes have not been saved. Do you want to save them?</localize>
+
+    <localize id="message.overwrite.title">Overwrite</localize>
+    <localize id="message.overwrite">File %1 has been already exist. Do you want to remove the old and write the new one?</localize>
+
+    <localize id="message.owner.confirmAutoInject.title">Confirm Auto-inject</localize>
+    <localize id="message.owner.confirmAutoInject">Do you want to inject the default owner data into the new file?</localize>
+
+    <localize id="message.theme.inputId">Please input new Theme ID</localize>
+    <localize id="message.theme.inputId.ngError">Failed: Prohibited Character(s) (/\) were used.</localize>
+    <localize id="message.theme.inputId.duplicate">Failed: The ID already exists</localize>
+
+    <localize id="message.text.search.count">Found %1 time(s)</localize>
+
+    <localize id="message.analyze.characterCount.all.title">All Character Count</localize>
+    <localize id="message.analyze.characterCount.all">All Character Count: %1</localize>
+    <localize id="message.analyze.characterCount.underSelected.title">Character Count Under the Selected Node</localize>
+    <localize id="message.analyze.characterCount.underSelected">Character Count: %1</localize>
+
+    <localize id="message.help.about">Name: ひなホップ（Hina Hop: Hina Outline Processer）
+Version: %1
+Developer: 和宮 葵（Kanomiya Aoi, http://kanomiya.com）</localize>
+
+</langDoc>

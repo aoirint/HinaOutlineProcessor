@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<langDoc lang="ja-JP" name="日本語" flag="jp.png">
+    <localize id="application.title">ひなホップ</localize>
+
+    <localize id="file">ファイル(%1)</localize>
+    <localize id="file.createNew">新規作成</localize>
+    <localize id="file.open">開く</localize>
+    <localize id="file.reopen">開き直す</localize>
+    <localize id="file.save">上書き保存</localize>
+    <localize id="file.saveAs">名前を付けて保存</localize>
+    <localize id="file.close">閉じる</localize>
+    <localize id="file.recentFiles">最近使ったファイル</localize>
+
+
+    <localize id="file.import">インポート</localize>
+    <localize id="file.import.opml">OPMLから</localize>
+    <localize id="file.import.wzmemo">階層付きテキスト(WzMemo)から</localize>
+    <localize id="file.export">エクスポート</localize>
+    <localize id="file.export.opml">OPMLとして</localize>
+    <localize id="file.export.wzmemo">階層付きテキスト(WzMemo)として</localize>
+
+    <localize id="file.settings">設定</localize>
+    <localize id="file.theme.settings">テーマ設定</localize>
+    <localize id="file.exit">終了</localize>
+
+    <localize id="document">文書(%1)</localize>
+    <localize id="document.unsaved">未保存</localize>
+    <localize id="document.settings">文書設定</localize>
+    <localize id="document.settings.dialog.title">文書設定</localize>
+    <localize id="document.owner.settings">所有者設定</localize>
+    <localize id="document.owner.unset">未設定</localize>
+    <localize id="document.mode.view">閲覧モード</localize>
+    <localize id="document.mode.edit">編集モード</localize>
+    <localize id="document.mode.view.short">閲覧</localize>
+    <localize id="document.mode.edit.short">編集</localize>
+    <localize id="document.dateFormatType">出力日付時刻フォーマット</localize>
+
+    <localize id="edit">編集(%1)</localize>
+    <localize id="edit.undo">元に戻す</localize>
+    <localize id="edit.redo">やり直す</localize>
+    <localize id="edit.focus.tree">ツリーにフォーカスを移す</localize>
+    <localize id="edit.focus.title">タイトルにフォーカスを移す</localize>
+    <localize id="edit.focus.body">本文にフォーカスを移す</localize>
+
+    <localize id="tree">ツリー(%1)</localize>
+    <localize id="tree.moveUpward">上へ移動</localize>
+    <localize id="tree.moveDownward">下へ移動</localize>
+
+    <localize id="tree.appendChildNode">子ノードを追加</localize>
+    <localize id="tree.appendSiblingNode">兄弟ノードを追加</localize>
+    <localize id="tree.removeNode">ノードを削除</localize>
+    <localize id="tree.cloneNode">ノードを複製</localize>
+
+    <!-- Node Marker Shape -->
+    <localize id="tree.node.marker.changeShape">マーカー形状変更</localize>
+    <localize id="tree.node.marker.shape.diamond">ひし形</localize>
+    <localize id="tree.node.marker.shape.square">四角</localize>
+    <localize id="tree.node.marker.shape.disc">丸</localize>
+    <localize id="tree.node.marker.shape.rightArrow">右矢印</localize>
+
+    <!-- Node Marker Color -->
+    <localize id="tree.node.marker.changeColor">マーカー色変更</localize>
+    <localize id="tree.node.marker.color.red">赤</localize>
+    <localize id="tree.node.marker.color.yellow">黄</localize>
+    <localize id="tree.node.marker.color.green">緑</localize>
+    <localize id="tree.node.marker.color.blue">青</localize>
+    <localize id="tree.node.marker.color.purple">紫</localize>
+    <localize id="tree.node.marker.color.any">任意</localize>
+
+    <localize id="tree.node.noTitle">無題</localize>
+
+
+    <localize id="text">テキスト(%1)</localize>
+    <localize id="text.cut">切り取り</localize>
+    <localize id="text.copy">コピー</localize>
+    <localize id="text.paste">貼り付け</localize>
+    <localize id="text.search.find">検索</localize>
+    <localize id="text.search.replace">置換</localize>
+    <localize id="text.search.dialog.title">検索</localize>
+    <localize id="text.search.tab.find">検索</localize>
+    <localize id="text.search.tab.replace">置換</localize>
+    <localize id="text.search.findNext">次を検索</localize>
+    <localize id="text.search.findWhat">検索文字列</localize>
+    <localize id="text.search.replace">置換</localize>
+    <localize id="text.search.replaceWith">置換文字列</localize>
+    <localize id="text.search.count">出現回数</localize>
+    <localize id="text.search.inSelection">選択範囲</localize>
+    <localize id="text.search.mode">検索モード</localize>
+    <localize id="text.search.mode.normal">標準</localize>
+    <localize id="text.search.mode.regex">正規表現</localize>
+    <localize id="text.search.direction">方向</localize>
+    <localize id="text.search.direction.up">上</localize>
+    <localize id="text.search.direction.down">下</localize>
+    <localize id="text.search.direction.wrapAround">折り返し</localize>
+    <localize id="text.search.rule">規則</localize>
+    <localize id="text.search.rule.regex.dotAll">正規表現 ピリオド全マッチ</localize>
+    <localize id="text.search.rule.matchCase">大文字小文字を区別</localize>
+
+
+
+    <localize id="analyze">分析(%1)</localize>
+    <localize id="analyze.characterCount">文字数カウント</localize>
+    <localize id="analyze.characterCount.all">全体</localize>
+    <localize id="analyze.characterCount.underSelected">選択ノード以下</localize>
+
+    <localize id="analyze.short.characterCount">文字数 %1</localize>
+    <localize id="analyze.short.lineCount">行数 %1</localize>
+    <localize id="analyze.short.caretRow">%1 行</localize>
+    <localize id="analyze.short.caretColumn">%1 列</localize>
+
+    <localize id="help">ヘルプ</localize>
+    <localize id="help.about">ひなホップについて</localize>
+    <localize id="help.about.dialog.title">アプリケーション情報</localize>
+
+
+    <localize id="settings.dialog.title">設定ダイアログ</localize>
+    <localize id="settings.general">一般</localize>
+    <localize id="settings.language">言語</localize>
+    <localize id="settings.owner">所有者</localize>
+    <localize id="settings.owner.defaultOwner">既定の所有者</localize>
+    <localize id="settings.owner.askAutoInject">所有者情報のオートインジェクトを確認する</localize>
+    <localize id="settings.fileHistory">履歴</localize>
+    <localize id="settings.fileHistory.fileHistorySize">最近使ったファイルの記録数</localize>
+    <localize id="settings.fileHistory.restorePreviousOnStartup">直前に使ったファイルの復元</localize>
+    <localize id="settings.edit.emphasizeFocusedPane">フォーカスしたペインを強調表示する</localize>
+
+    <localize id="owner.dialog.title">所有者設定ダイアログ</localize>
+    <localize id="owner.name">名前</localize>
+    <localize id="owner.mail">メール</localize>
+    <localize id="owner.phone">電話</localize>
+    <localize id="owner.website">ウェブサイト</localize>
+
+    <localize id="theme.dialog.title">テーマ設定ダイアログ</localize>
+    <localize id="theme.themeList">テーマ</localize>
+    <localize id="theme.name">名前</localize>
+    <localize id="theme.create">作成</localize>
+    <localize id="theme.copy">複製</localize>
+    <localize id="theme.remove">削除</localize>
+    <localize id="theme.use">このテーマを使用</localize>
+
+    <localize id="theme.color">色の設定</localize>
+    <localize id="theme.color.title">タイトル</localize>
+    <localize id="theme.color.body">本文</localize>
+    <localize id="theme.color.tree">ツリー</localize>
+    <localize id="theme.color.others">その他</localize>
+    <localize id="theme.color.foreground">前景色</localize>
+    <localize id="theme.color.background">背景色</localize>
+    <localize id="theme.color.selectionForeground">選択前景色</localize>
+    <localize id="theme.color.selectionBackground">選択背景色</localize>
+    <localize id="theme.color.caret">キャレット色</localize>
+    <localize id="theme.color.emphasisBorder">強調線</localize>
+
+
+    <localize id="button.ok">OK</localize>
+    <localize id="button.clear">クリア</localize>
+    <localize id="button.apply">変更を適用</localize>
+
+    <localize id="message.unsaved.title">未保存の変更</localize>
+    <localize id="message.unsaved">保存していない変更があります。保存しますか？</localize>
+
+    <localize id="message.overwrite.title">上書き</localize>
+    <localize id="message.overwrite">ファイル %1 は既に存在します。古いものを削除して新しく書き込みますか？</localize>
+
+    <localize id="message.owner.confirmAutoInject.title">オートインジェクトの確認</localize>
+    <localize id="message.owner.confirmAutoInject">新規ファイルに既定の所有者情報を書き込みますか？</localize>
+
+    <localize id="message.text.search.count">%1 回出現しました</localize>
+
+    <localize id="message.analyze.characterCount.all.title">全体文字数カウント</localize>
+    <localize id="message.analyze.characterCount.all">総文字数：%1</localize>
+    <localize id="message.analyze.characterCount.underSelected.title">選択ノード以下文字数カウント</localize>
+    <localize id="message.analyze.characterCount.underSelected">文字数：%1</localize>
+
+
+
+    <localize id="message.help.about">名前：ひなホップ（Hina Hop: Hina Outline Processer）
+バージョン：%1
+開発者：和宮 葵（Kanomiya Aoi, http://kanomiya.com）</localize>
+
+</langDoc>

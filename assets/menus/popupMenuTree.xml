@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<menuDoc>
+    <menuItem command="tree.appendChildNode" accelerator="alt INSERT" />
+    <menuItem command="tree.appendSiblingNode" accelerator="alt shift INSERT" />
+    <menuItem command="tree.removeNode" />
+    <menuItem command="tree.cloneNode" />
+    <separator />
+    <menuItem command="tree.moveUpward" accelerator="ctrl UP" />
+    <menuItem command="tree.moveDownward" accelerator="ctrl DOWN" />
+    <separator />
+    <menu name="tree.node.marker.changeShape">
+        <menuItem name="tree.node.marker.shape.diamond" icon="tree.node.marker diamond #327292" command="tree.node.marker.changeShape diamond" />
+        <menuItem name="tree.node.marker.shape.square" icon="tree.node.marker square #529232" command="tree.node.marker.changeShape square" />
+        <menuItem name="tree.node.marker.shape.disc" icon="tree.node.marker. disc #928232" command="tree.node.marker.changeShape disc" />
+        <menuItem name="tree.node.marker.shape.rightArrow" icon="tree.node.marker rightArrow #923232" command="tree.node.marker.changeShape rightArrow" />
+    </menu>
+    <menu name="tree.node.marker.changeColor">
+        <menuItem name="tree.node.marker.color.red" icon="tree.node.marker diamond #923232" command="tree.node.marker.changeColor #923232" />
+        <menuItem name="tree.node.marker.color.yellow" icon="tree.node.marker diamond #928232" command="tree.node.marker.changeColor #928232" />
+        <menuItem name="tree.node.marker.color.green" icon="tree.node.marker diamond #529232" command="tree.node.marker.changeColor #529232" />
+        <menuItem name="tree.node.marker.color.blue" icon="tree.node.marker diamond #327292" command="tree.node.marker.changeColor #327292" />
+        <menuItem name="tree.node.marker.color.purple" icon="tree.node.marker diamond #923292" command="tree.node.marker.changeColor #923292" />
+        <menuItem name="tree.node.marker.color.any" command="tree.node.marker.changeColor" />
+    </menu>
+</menuDoc>

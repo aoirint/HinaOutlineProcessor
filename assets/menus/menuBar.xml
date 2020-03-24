@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<menuDoc>
+    <menu name="file" mnemonic="f">
+        <menuItem command="file.createNew" accelerator="ctrl N" />
+        <menuItem command="file.open" accelerator="ctrl O" />
+        <menuItem command="file.reopen" />
+        <menuItem command="file.save" accelerator="ctrl S" />
+        <menuItem command="file.saveAs" accelerator="ctrl shift S" />
+        <menuItem command="file.close" accelerator="ctrl W" />
+        <menu name="file.recentFiles" item-source="file.recentFiles" />
+        <separator />
+        <menuItem command="file.settings"/>
+        <menuItem command="file.theme.settings"/>
+        <separator />
+        <menuItem command="file.exit" />
+    </menu>
+
+    <menu name="document" mnemonic="d">
+        <menuItem command="document.settings" />
+        <menuItem command="document.owner.settings" />
+        <separator />
+        <menuItem command="document.mode.view" />
+        <menuItem command="document.mode.edit" />
+    </menu>
+
+    <menu name="edit" mnemonic="e">
+        <menuItem command="edit.undo" />
+        <menuItem command="edit.redo" />
+        <separator />
+        <menuItem command="edit.focus.tree" />
+        <menuItem command="edit.focus.title" />
+        <menuItem command="edit.focus.body" />
+    </menu>
+
+    <menu name="tree" mnemonic="t">
+        <menuItem command="tree.appendChildNode" accelerator="alt INSERT" />
+        <menuItem command="tree.appendSiblingNode" accelerator="alt shift INSERT" />
+        <menuItem command="tree.removeNode" />
+        <menuItem command="tree.cloneNode" />
+        <separator />
+        <menuItem command="tree.moveUpward" accelerator="alt UP" />
+        <menuItem command="tree.moveDownward" accelerator="alt DOWN" />
+        <separator />
+        <menu name="tree.node.marker.changeShape">
+            <menuItem name="tree.node.marker.shape.diamond" icon="tree.node.marker diamond #327292" command="tree.node.marker.changeShape diamond" />
+            <menuItem name="tree.node.marker.shape.square" icon="tree.node.marker square #529232" command="tree.node.marker.changeShape square" />
+            <menuItem name="tree.node.marker.shape.disc" icon="tree.node.marker. disc #928232" command="tree.node.marker.changeShape disc" />
+            <menuItem name="tree.node.marker.shape.rightArrow" icon="tree.node.marker rightArrow #923232" command="tree.node.marker.changeShape rightArrow" />
+        </menu>
+        <menu name="tree.node.marker.changeColor">
+            <menuItem name="tree.node.marker.color.red" icon="tree.node.marker diamond #923232" command="tree.node.marker.changeColor #923232" />
+            <menuItem name="tree.node.marker.color.yellow" icon="tree.node.marker diamond #928232" command="tree.node.marker.changeColor #928232" />
+            <menuItem name="tree.node.marker.color.green" icon="tree.node.marker diamond #529232" command="tree.node.marker.changeColor #529232" />
+            <menuItem name="tree.node.marker.color.blue" icon="tree.node.marker diamond #327292" command="tree.node.marker.changeColor #327292" />
+            <menuItem name="tree.node.marker.color.purple" icon="tree.node.marker diamond #923292" command="tree.node.marker.changeColor #923292" />
+            <menuItem name="tree.node.marker.color.any" command="tree.node.marker.changeColor" />
+        </menu>
+    </menu>
+
+    <menu name="text" mnemonic="x">
+        <menuItem command="text.cut" />
+        <menuItem command="text.copy" />
+        <menuItem command="text.paste" />
+        <separator />
+        <menuItem command="text.search.find"  accelerator="ctrl F" />
+        <menuItem command="text.search.replace"  accelerator="ctrl R" />
+    </menu>
+
+    <menu name="analyze" mnemonic="z">
+        <menu name="analyze.characterCount">
+            <menuItem command="analyze.characterCount.all" />
+            <menuItem command="analyze.characterCount.underSelected" />
+        </menu>
+    </menu>
+
+    <menu name="help" mnemonic="h">
+        <menuItem command="help.about" />
+    </menu>
+</menuDoc>

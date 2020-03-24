@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<themeDoc id="dark" name="Dark">
+  <color key="treeComponent.foreground" value="#cccccc"/>
+  <color key="treeComponent.background" value="#383838"/>
+  <color key="treeComponent.selectionForeground" value="#ffffff"/>
+  <color key="treeComponent.selectionBackground" value="#666666"/>
+
+  <color key="titleComponent.foreground" value="#ffffff"/>
+  <color key="titleComponent.background" value="#383838"/>
+  <color key="titleComponent.selectionForeground" value="#ffffff"/>
+  <color key="titleComponent.selectionBackground" value="#999999"/>
+  <color key="titleComponent.caret" value="#ffffff"/>
+
+  <color key="bodyComponent.foreground" value="#ffffff"/>
+  <color key="bodyComponent.background" value="#383838"/>
+  <color key="bodyComponent.selectionBackground" value="#999999"/>
+  <color key="bodyComponent.selectionForeground" value="#ffffff"/>
+  <color key="bodyComponent.caret" value="#ffffff"/>
+
+  <color key="emphasisBorder" value="#b200"/>
+</themeDoc>
